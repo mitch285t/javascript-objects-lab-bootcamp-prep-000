@@ -12,3 +12,6 @@ var newprop = Object.assign({}, recipes)
 function deleteFromObjectByKey(recipes, key){
   delete newprop.recipes
 }
+function destructivelyDeleteFromObjectByKey() {
+  
+}

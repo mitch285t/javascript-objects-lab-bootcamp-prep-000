@@ -4,5 +4,5 @@ function updateObjectWithKeyAndValue(recipes, key, value){
       return Object.assign({}, recipes, { ['prop2']: 2 })
 }
 function destructivelyUpdateObjectWithKeyAndValue(recipes, key, value){
-  
+  recipes['prop3'] = 3
 }
